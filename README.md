@@ -4,7 +4,7 @@ Smart Resume Analyzer & Job Matcher is a powerful, AI-driven full-stack web appl
 
 **Repository:** [https://github.com/pankaj9088/Smart-Resume-Analyzer.git](https://github.com/pankaj9088/Smart-Resume-Analyzer.git)
 <br/>
-**Live Demo:** [Smart Resume Analyzer on Vercel](https://smart-resume-analyzer-six.vercel.app/) *(Note: If you have your exact Vercel link, update this!)*
+**Live Demo:** https://smart-resume-analyzer-xi.vercel.app
 
 ## 🚀 Features
 
