@@ -28,10 +28,12 @@ export default function Dashboard() {
     }
   }, [activeTab]);
 
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080';
+
   const fetchHistory = async () => {
     setLoadingHistory(true);
     try {
-      const response = await fetch('http://localhost:8080/api/resumes');
+      const response = await fetch(`${API_BASE_URL}/api/resumes`);
       if (response.ok) {
         const data = await response.json();
         setHistoryList(data);
@@ -45,7 +47,7 @@ export default function Dashboard() {
   const deleteHistoryItem = async (id) => {
     if (!window.confirm("Are you sure you want to delete this resume analysis?")) return;
     try {
-      const response = await fetch(`http://localhost:8080/api/resumes/${id}`, { method: 'DELETE' });
+      const response = await fetch(`${API_BASE_URL}/api/resumes/${id}`, { method: 'DELETE' });
       if (response.ok) {
         fetchHistory(); // Refresh list
       } else {

@@ -65,7 +65,9 @@ export default function Analyzing() {
     const formData = new FormData();
     formData.append('file', blob, fileName);
 
-    fetch('http://localhost:8080/api/resumes/upload', {
+    const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080';
+
+    fetch(`${API_BASE_URL}/api/resumes/upload`, {
       method: 'POST',
       body: formData,
     })
