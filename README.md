@@ -2,9 +2,8 @@
 
 Smart Resume Analyzer & Job Matcher is a powerful, AI-driven full-stack web application designed to help job seekers optimize their resumes for Applicant Tracking Systems (ATS) and find the best job matches. 
 
-**Repository:** [https://github.com/pankaj9088/Smart-Resume-Analyzer.git](https://github.com/pankaj9088/Smart-Resume-Analyzer.git)
-<br/>
-**Live Demo:** https://smart-resume-analyzer-xi.vercel.app
+
+**Live Demo:** https://smart-resume-analyzer-4ihcqv25f.vercel.app
 
 ## 🚀 Features
 
